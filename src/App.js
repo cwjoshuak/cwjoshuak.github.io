@@ -17,7 +17,7 @@ function App() {
     <>
       <NavBar />
       <SideBar />
-      <div className="container mx-auto md:px-36 sm:px-20 px-10 ">
+      <div className="container mx-auto md:px-36 sm:px-20 px-10">
         <header
           className="container flex justify-center flex-col h-screen"
           // style={{ height: "90vh" }}
@@ -31,9 +31,10 @@ function App() {
               options={{
                 strings: [
                   "learning new things.",
-                  "cooking.",
+                  "watching cooking videos.",
                   "attending hackathons.",
                   "coding.",
+                  "playing video games.",
                 ],
                 autoStart: true,
                 loop: true,
