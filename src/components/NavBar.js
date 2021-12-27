@@ -20,7 +20,7 @@ const NavBar = () => {
   }, [prevScrollPos, visible, handleScroll]);
   return (
     <nav
-      className={`invisible sm:visible px-12 xl:px-80 lg:px-48 md:px-28 flex h-24 flex-grow fixed left-0 right-0 transition-all duration-150 delay-100 backdrop-filter backdrop-blur shadow-lg ${
+      className={`invisible sm:visible px-12 xl:px-80 lg:px-48 md:px-28 flex h-24 flex-grow fixed left-0 right-0 transition-all duration-150 delay-100 backdrop-filter backdrop-blur shadow-lg z-50 ${
         visible ? "ease-out top-0" : "ease-in -top-24"
       }`}
     >
